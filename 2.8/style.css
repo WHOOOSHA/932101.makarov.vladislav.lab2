@@ -1,0 +1,42 @@
+* {
+    margin:0;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    flex-shrink: 0;
+    width: 200px;
+    background-color: aqua;
+}
+
+.top {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color:bisque;
+
+}
+
+.item {
+    padding: 0;
+}
+
+.content {
+    background-color: darkgray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}

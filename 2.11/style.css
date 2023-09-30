@@ -1,0 +1,15 @@
+main {
+    width:100%;
+    border:1px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+img {
+    flex-shrink: 0;
+}

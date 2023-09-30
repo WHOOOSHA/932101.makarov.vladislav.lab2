@@ -1,0 +1,54 @@
+.static {
+    position: static;
+    height: 125px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.relative-red {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    bottom: 40px;
+}
+
+.relative-peru {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: peru;
+    bottom: 80px; 
+    left: 40px;
+}
+
+.relative-indianred {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    background-color:indianred;
+    top: 325px; 
+    
+}
+
+.absolute {
+    position: absolute;
+    right: 0; 
+    top: 60px;
+    height: 200px;
+    width: 270px;
+    background-color: indigo;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0; 
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+p {
+    color: white;
+}

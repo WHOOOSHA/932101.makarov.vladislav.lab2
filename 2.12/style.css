@@ -1,0 +1,49 @@
+main {
+    border: 1px solid green;
+    background-color: aqua;
+    display:flex;
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        max-width: 300px;
+    }
+
+    .list {
+        max-width: 150px;
+    }
+}
+
+.list {
+    flex-basis: 30%;
+    flex-shrink: 1;
+    height: 25%;
+    background-color: bisque;
+    flex-grow: 2;
+
+}
+
+.list-item {
+    margin: 0;
+}
+
+.content-item{
+    margin: 0;
+}
+
+ul {
+    margin: 10px;
+}
+
+.content {
+    flex-wrap: wrap;
+    flex-shrink: 4;
+    flex-grow: 1;
+    background-color: darkgray;
+
+}
